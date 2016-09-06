@@ -19,17 +19,10 @@ http://marlonlucioss.hol.es/
 2. SASS: Para melhor desenvolvimento dos estilos e aumento da produtividade
 3. Javascript Puro: Fiz questão de não usar qualquer biblioteca ou framework por se tratar de uma especificação que pôde ser facilmente tratada com matemática básica, evitando o import de códigos desnecessários.
 4. Gulp: Para automatizar os processos repetitivos.
-    *gulp-uglify: para minificar arquivos javascript
-    *gulp-concat: para concatenar aquivos
-    *gulp-imagemin: para otimizar imagens
-    *gulp-htmlmin: para minificar arquivos html
-    *gulp-sass: para processar aquivos sass para css
-    *gulp-clean-css: para minificar arquivos css
-5. NPM: Para que qualquer desenvolvedor possa rodar o projeto em sua máquina com as dependências corretas.
-
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
+5. gulp-uglify: para minificar arquivos javascript
+6. gulp-concat: para concatenar aquivos
+7. gulp-imagemin: para otimizar imagens
+8. gulp-htmlmin: para minificar arquivos html
+9. gulp-sass: para processar aquivos sass para css
+10. gulp-clean-css: para minificar arquivos css
+11. NPM: Para que qualquer desenvolvedor possa rodar o projeto em sua máquina com as dependências corretas.
