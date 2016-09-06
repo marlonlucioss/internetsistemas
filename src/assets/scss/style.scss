@@ -1,0 +1,44 @@
+body{
+  background: url("../img/bg.jpg");
+}
+
+#clock-content{
+  width: 200px;
+  height: 200px;
+  margin: 100px auto;
+  background: url("../img/clock.png") center no-repeat;
+  background-size: cover;
+  position: relative;
+  .pointer{
+    position: absolute;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    &#hours-pointer{
+      background: url("../img/hoursPointer.png") center no-repeat;
+    }
+    &#minutes-pointer{
+      background: url("../img/minutesPointer.png") center no-repeat;
+    }
+    &#seconds-pointer{
+      background: url("../img/secondsPointer.png") center no-repeat;
+    }
+  }
+}
+
+#toogle-clock-bt{
+  background: url("../img/clock-bt.png") center no-repeat;
+  background-color: red;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  &.disabled{
+    background-color: green;
+  }
+}
