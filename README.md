@@ -26,3 +26,18 @@ http://marlonlucioss.hol.es/
 9. gulp-sass: para processar aquivos sass para css
 10. gulp-clean-css: para minificar arquivos css
 11. NPM: Para que qualquer desenvolvedor possa rodar o projeto em sua máquina com as dependências corretas.
+
+
+Para rodar localmente, basta instalar as depedências,
+
+```
+npm install
+```
+
+e rodar o comando:
+
+```
+gulp
+```
+
+Obrigado pela oportunidade do teste.
